@@ -1,4 +1,7 @@
 fn main() {
-    let a = 12;
-    println!("a is {0}, a again is {0}", a);
+    let x = 5;
+    let x = x + 1;
+    let x = x * 2;
+
+    println!("The value of x is:{}", x)
 }
